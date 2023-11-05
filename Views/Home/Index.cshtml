@@ -5,4 +5,33 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Daño</th>
+            <th>Turno</th>
+            <th>Vida</th>
+            <th>Hambre</th>
+            <th>Nombre</th>
+            <th>Debilidad</th>
+            <th>Descripcion</th>
+        </tr>
+        @foreach(var personaje in Model)
+        {
+            <tr>
+                <th>@Html.DisplayFor(item => personaje.Id)</th>
+                <th>@Html.DisplayFor(item => personaje.Danio)</th>
+                <th>@Html.DisplayFor(item => personaje.Turno)</th>
+                <th>@Html.DisplayFor(item => personaje.Vida)</th>
+                <th>@Html.DisplayFor(item => personaje.Hambre)</th>
+                <th>@Html.DisplayFor(item => personaje.Nombre)</th>
+                <th>@Html.DisplayFor(item => personaje.Debilidad)</th>
+                <th>@Html.DisplayFor(item => personaje.Descripcion)</th>
+            </tr>
+        }
+        
+    </table>
+
+
 </div>

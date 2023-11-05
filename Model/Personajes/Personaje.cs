@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace ProyectoRogelike.Modelo.Personajes
 {
     public abstract class Personaje
     {
-
-
+        [Key]
+        private int id;
         private int Vida;
         private int Danio;
         private bool Turno;

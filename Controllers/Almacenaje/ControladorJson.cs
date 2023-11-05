@@ -1,10 +1,10 @@
-﻿using Newtonsoft.Json;
-using ProyectoRogelike.Modelo.Personajes;
+﻿using ProyectoRogelike.Modelo.Personajes;
 using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using ProyectoRogelike.Controlador.Interfaces;
 using ProyectoRogelike.Modelo;
+using Newtonsoft.Json;
 
 namespace ProyectoRogelike.Controlador.Almacenaje
 {
