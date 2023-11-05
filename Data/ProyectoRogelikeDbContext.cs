@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProyectoRogelike.Modelo.Cofres;
 using ProyectoRogelike.Modelo.Mapa;
-using ProyectoRogelike.Modelo.Personajes;
+using ProyectoRogelikeV2.Models.Personajes;
 
 namespace ProyectoRogelikeV2.Data
 {

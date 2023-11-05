@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.IO;
-using ProyectoRogelike.Modelo.Personajes;
 using System.Xml.Linq;
 using ProyectoRogelike.Controlador.Almacenaje;
 using ProyectoRogelike.Modelo;
+using ProyectoRogelikeV2.Models.Personajes;
 
 namespace ProyectoRogelike.Controlador.Personajes
 {

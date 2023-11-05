@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProyectoRogelike.Modelo.Personajes;
 using ProyectoRogelikeV2.Data;
 using ProyectoRogelikeV2.Models;
+using ProyectoRogelikeV2.Models.Personajes;
 using System.Diagnostics;
 
 namespace ProyectoRogelikeV2.Controllers

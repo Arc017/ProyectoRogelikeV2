@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoRogelike.Modelo.Personajes
+namespace ProyectoRogelikeV2.Models.Personajes
 {
     internal class Jugador : Personaje
     {
 
         private int Hambre;
 
-        public Jugador(int vida, int danio, bool turno, int hambre) : base(vida, danio, turno)
+        public Jugador(int vida, int danio, bool turno, int hambre) : base(id, vida, danio, turno)
         {
         }
 

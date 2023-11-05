@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoRogelike.Modelo.Personajes
+namespace ProyectoRogelikeV2.Models.Personajes
 {
     internal class Enemigo : Personaje
     {
@@ -12,7 +12,7 @@ namespace ProyectoRogelike.Modelo.Personajes
         private string Nombre;
         private string Debilidad;
         private string Descripcion;
-        public Enemigo(int vida, int danio, bool turno, int Id, string Nombre, string Debilidad, string descripcion1) : base(vida, danio, turno)
+        public Enemigo(int vida, int danio, bool turno, int Id, string Nombre, string Debilidad, string descripcion1) : base(Id, vida, danio, turno)
         {
 
         }
