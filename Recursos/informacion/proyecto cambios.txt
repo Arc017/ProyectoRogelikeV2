@@ -1,0 +1,5 @@
+-el path del json en el model
+-metodo guardarprogreso en el controladorjson
+-en las clases atomicas tiene que existir tostring y equals
+-finiquitar las atomicas
+-los plurales hacerlos con Listas genericos

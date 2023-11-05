@@ -1,0 +1,17 @@
+[
+  {
+    "Vida": 20,
+    "Danio": 2,
+    "Turno": true,
+    "Hambre1": 100
+  },
+  {
+    "Vida": 200,
+    "Danio": 400,
+    "Turno": false,
+    "Id1": 1,
+    "Nombre1": "Boblin, EL GOBLIN",
+    "Debilidad1": "Bonk",
+    "Descripcion_1": "Pequeño y verde, que esta criatura no te engañe, puede ser peligrosa y escurridiza"
+  }
+]

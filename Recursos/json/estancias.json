@@ -1,0 +1,17 @@
+[
+  {
+    "Id1": 1,
+    "Tipo1": "narracion",
+    "Texto": "Esta zona parece segura, sera asi en la siguiente?"
+  },
+  {
+    "Id1": 2,
+    "Tipo1": "combate",
+    "Texto": "Te toca pelear, saldras de esta??"
+  },
+  {
+    "Id1": 3,
+    "Tipo1": "botin",
+    "Texto": "Ves un cofre a un lado del camino, sera una trampa? o quizas esconde riquezas? Tu decides"
+  }
+]
